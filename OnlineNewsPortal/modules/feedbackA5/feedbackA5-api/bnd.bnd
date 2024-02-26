@@ -1,0 +1,10 @@
+Bundle-Name: feedbackA5-api
+Bundle-SymbolicName: feedbackA5.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	feedbackA5.exception,\
+	feedbackA5.model,\
+	feedbackA5.service,\
+	feedbackA5.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../feedbackA5-service/service.xml

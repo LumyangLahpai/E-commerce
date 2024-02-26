@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:feedbackA5:feedbackA5-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../feedbackA5-api/src/main/java"
+}
+
+group = "feedbackA5"
